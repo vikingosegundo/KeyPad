@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* KeyPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* KeyPadAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* KeyPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* KeyPadViewController.m */; };
+		6402CD631213327C00FF6E90 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402CD621213327C00FF6E90 /* CoreLocation.framework */; };
+		640560061208537500D6151D /* keypad.png in Resources */ = {isa = PBXBuildFile; fileRef = 640560051208537500D6151D /* keypad.png */; };
+		640560091208538500D6151D /* VSKeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 640560081208538500D6151D /* VSKeypadView.m */; };
+		64056041120857A000D6151D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64056040120857A000D6151D /* QuartzCore.framework */; };
+		6449707A1288A8D20061E787 /* KeyPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 644970791288A8D20061E787 /* KeyPadViewController.xib */; };
+		648F7D8E120CB5D200B17DD2 /* keyBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7D8D120CB5D200B17DD2 /* keyBG.png */; };
+		648F7E89120CC07200B17DD2 /* keySW_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7E85120CC07200B17DD2 /* keySW_BG.png */; };
+		648F7E8A120CC07200B17DD2 /* keySE_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7E86120CC07200B17DD2 /* keySE_BG.png */; };
+		648F7E8B120CC07200B17DD2 /* keyNE_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7E87120CC07200B17DD2 /* keyNE_BG.png */; };
+		648F7E8C120CC07200B17DD2 /* keyNW_BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7E88120CC07200B17DD2 /* keyNW_BG.png */; };
+		648F7F21120CC81300B17DD2 /* keyNE_BG_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7F1C120CC81300B17DD2 /* keyNE_BG_touched.png */; };
+		648F7F22120CC81300B17DD2 /* keyNW_BG_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7F1D120CC81300B17DD2 /* keyNW_BG_touched.png */; };
+		648F7F23120CC81300B17DD2 /* keyBG_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7F1E120CC81300B17DD2 /* keyBG_touched.png */; };
+		648F7F24120CC81300B17DD2 /* keySE_BG_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7F1F120CC81300B17DD2 /* keySE_BG_touched.png */; };
+		648F7F25120CC81300B17DD2 /* keySW_BG_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F7F20120CC81300B17DD2 /* keySW_BG_touched.png */; };
+		648F8168120D05A200B17DD2 /* numpad-bg_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F815C120D05A200B17DD2 /* numpad-bg_0.png */; };
+		648F8169120D05A200B17DD2 /* numpad-bg_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F815D120D05A200B17DD2 /* numpad-bg_1.png */; };
+		648F816A120D05A200B17DD2 /* numpad-bg_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F815E120D05A200B17DD2 /* numpad-bg_2.png */; };
+		648F816B120D05A200B17DD2 /* numpad-bg_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F815F120D05A200B17DD2 /* numpad-bg_3.png */; };
+		648F816C120D05A200B17DD2 /* numpad-bg_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8160120D05A200B17DD2 /* numpad-bg_4.png */; };
+		648F816D120D05A200B17DD2 /* numpad-bg_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8161120D05A200B17DD2 /* numpad-bg_5.png */; };
+		648F816E120D05A200B17DD2 /* numpad-bg_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8162120D05A200B17DD2 /* numpad-bg_6.png */; };
+		648F816F120D05A200B17DD2 /* numpad-bg_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8163120D05A200B17DD2 /* numpad-bg_7.png */; };
+		648F8170120D05A200B17DD2 /* numpad-bg_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8164120D05A200B17DD2 /* numpad-bg_8.png */; };
+		648F8171120D05A200B17DD2 /* numpad-bg_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8165120D05A200B17DD2 /* numpad-bg_9.png */; };
+		648F8172120D05A200B17DD2 /* numpad-bg_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8166120D05A200B17DD2 /* numpad-bg_10.png */; };
+		648F8173120D05A200B17DD2 /* numpad-bg_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8167120D05A200B17DD2 /* numpad-bg_11.png */; };
+		648F8187120D068100B17DD2 /* numpad-bg_11_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F817B120D068100B17DD2 /* numpad-bg_11_h.png */; };
+		648F8188120D068100B17DD2 /* numpad-bg_10_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F817C120D068100B17DD2 /* numpad-bg_10_h.png */; };
+		648F8189120D068100B17DD2 /* numpad-bg_9_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F817D120D068100B17DD2 /* numpad-bg_9_h.png */; };
+		648F818A120D068100B17DD2 /* numpad-bg_8_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F817E120D068100B17DD2 /* numpad-bg_8_h.png */; };
+		648F818B120D068100B17DD2 /* numpad-bg_7_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F817F120D068100B17DD2 /* numpad-bg_7_h.png */; };
+		648F818C120D068100B17DD2 /* numpad-bg_6_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8180120D068100B17DD2 /* numpad-bg_6_h.png */; };
+		648F818D120D068100B17DD2 /* numpad-bg_5_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8181120D068100B17DD2 /* numpad-bg_5_h.png */; };
+		648F818E120D068100B17DD2 /* numpad-bg_4_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8182120D068100B17DD2 /* numpad-bg_4_h.png */; };
+		648F818F120D068100B17DD2 /* numpad-bg_3_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8183120D068100B17DD2 /* numpad-bg_3_h.png */; };
+		648F8190120D068100B17DD2 /* numpad-bg_2_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8184120D068100B17DD2 /* numpad-bg_2_h.png */; };
+		648F8191120D068100B17DD2 /* numpad-bg_1_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8185120D068100B17DD2 /* numpad-bg_1_h.png */; };
+		648F8192120D068100B17DD2 /* numpad-bg_0_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 648F8186120D068100B17DD2 /* numpad-bg_0_h.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* KeyPadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPadAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* KeyPadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPadAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* KeyPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* KeyPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPadViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* KeyPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPadViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* KeyPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPad_Prefix.pch; sourceTree = "<group>"; };
+		6402CD621213327C00FF6E90 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		640560051208537500D6151D /* keypad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keypad.png; sourceTree = "<group>"; };
+		640560071208538500D6151D /* VSKeypadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSKeypadView.h; sourceTree = "<group>"; };
+		640560081208538500D6151D /* VSKeypadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSKeypadView.m; sourceTree = "<group>"; };
+		64056040120857A000D6151D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		644970791288A8D20061E787 /* KeyPadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyPadViewController.xib; sourceTree = "<group>"; };
+		648F7D8D120CB5D200B17DD2 /* keyBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyBG.png; sourceTree = "<group>"; };
+		648F7E85120CC07200B17DD2 /* keySW_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keySW_BG.png; sourceTree = "<group>"; };
+		648F7E86120CC07200B17DD2 /* keySE_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keySE_BG.png; sourceTree = "<group>"; };
+		648F7E87120CC07200B17DD2 /* keyNE_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyNE_BG.png; sourceTree = "<group>"; };
+		648F7E88120CC07200B17DD2 /* keyNW_BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyNW_BG.png; sourceTree = "<group>"; };
+		648F7F1C120CC81300B17DD2 /* keyNE_BG_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyNE_BG_touched.png; sourceTree = "<group>"; };
+		648F7F1D120CC81300B17DD2 /* keyNW_BG_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyNW_BG_touched.png; sourceTree = "<group>"; };
+		648F7F1E120CC81300B17DD2 /* keyBG_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyBG_touched.png; sourceTree = "<group>"; };
+		648F7F1F120CC81300B17DD2 /* keySE_BG_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keySE_BG_touched.png; sourceTree = "<group>"; };
+		648F7F20120CC81300B17DD2 /* keySW_BG_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keySW_BG_touched.png; sourceTree = "<group>"; };
+		648F8034120CDAF700B17DD2 /* KeypadConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeypadConfig.h; path = Classes/KeypadConfig.h; sourceTree = "<group>"; };
+		648F815C120D05A200B17DD2 /* numpad-bg_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_0.png"; sourceTree = "<group>"; };
+		648F815D120D05A200B17DD2 /* numpad-bg_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_1.png"; sourceTree = "<group>"; };
+		648F815E120D05A200B17DD2 /* numpad-bg_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_2.png"; sourceTree = "<group>"; };
+		648F815F120D05A200B17DD2 /* numpad-bg_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_3.png"; sourceTree = "<group>"; };
+		648F8160120D05A200B17DD2 /* numpad-bg_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_4.png"; sourceTree = "<group>"; };
+		648F8161120D05A200B17DD2 /* numpad-bg_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_5.png"; sourceTree = "<group>"; };
+		648F8162120D05A200B17DD2 /* numpad-bg_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_6.png"; sourceTree = "<group>"; };
+		648F8163120D05A200B17DD2 /* numpad-bg_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_7.png"; sourceTree = "<group>"; };
+		648F8164120D05A200B17DD2 /* numpad-bg_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_8.png"; sourceTree = "<group>"; };
+		648F8165120D05A200B17DD2 /* numpad-bg_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_9.png"; sourceTree = "<group>"; };
+		648F8166120D05A200B17DD2 /* numpad-bg_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_10.png"; sourceTree = "<group>"; };
+		648F8167120D05A200B17DD2 /* numpad-bg_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_11.png"; sourceTree = "<group>"; };
+		648F817B120D068100B17DD2 /* numpad-bg_11_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_11_h.png"; sourceTree = "<group>"; };
+		648F817C120D068100B17DD2 /* numpad-bg_10_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_10_h.png"; sourceTree = "<group>"; };
+		648F817D120D068100B17DD2 /* numpad-bg_9_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_9_h.png"; sourceTree = "<group>"; };
+		648F817E120D068100B17DD2 /* numpad-bg_8_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_8_h.png"; sourceTree = "<group>"; };
+		648F817F120D068100B17DD2 /* numpad-bg_7_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_7_h.png"; sourceTree = "<group>"; };
+		648F8180120D068100B17DD2 /* numpad-bg_6_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_6_h.png"; sourceTree = "<group>"; };
+		648F8181120D068100B17DD2 /* numpad-bg_5_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_5_h.png"; sourceTree = "<group>"; };
+		648F8182120D068100B17DD2 /* numpad-bg_4_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_4_h.png"; sourceTree = "<group>"; };
+		648F8183120D068100B17DD2 /* numpad-bg_3_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_3_h.png"; sourceTree = "<group>"; };
+		648F8184120D068100B17DD2 /* numpad-bg_2_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_2_h.png"; sourceTree = "<group>"; };
+		648F8185120D068100B17DD2 /* numpad-bg_1_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_1_h.png"; sourceTree = "<group>"; };
+		648F8186120D068100B17DD2 /* numpad-bg_0_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numpad-bg_0_h.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* KeyPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KeyPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				64056041120857A000D6151D /* QuartzCore.framework in Frameworks */,
+				6402CD631213327C00FF6E90 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* KeyPadAppDelegate.h */,
+				1D3623250D0F684500981E51 /* KeyPadAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* KeyPadViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* KeyPadViewController.m */,
+				640560071208538500D6151D /* VSKeypadView.h */,
+				640560081208538500D6151D /* VSKeypadView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* KeyPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				648F8034120CDAF700B17DD2 /* KeypadConfig.h */,
+				32CA4F630368D1EE00C91783 /* KeyPad_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				644970791288A8D20061E787 /* KeyPadViewController.xib */,
+				648F8051120CDEB700B17DD2 /* KeyBGs */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* KeyPad-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64056040120857A000D6151D /* QuartzCore.framework */,
+				6402CD621213327C00FF6E90 /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		648F8051120CDEB700B17DD2 /* KeyBGs */ = {
+			isa = PBXGroup;
+			children = (
+				648F817B120D068100B17DD2 /* numpad-bg_11_h.png */,
+				648F817C120D068100B17DD2 /* numpad-bg_10_h.png */,
+				648F817D120D068100B17DD2 /* numpad-bg_9_h.png */,
+				648F817E120D068100B17DD2 /* numpad-bg_8_h.png */,
+				648F817F120D068100B17DD2 /* numpad-bg_7_h.png */,
+				648F8180120D068100B17DD2 /* numpad-bg_6_h.png */,
+				648F8181120D068100B17DD2 /* numpad-bg_5_h.png */,
+				648F8182120D068100B17DD2 /* numpad-bg_4_h.png */,
+				648F8183120D068100B17DD2 /* numpad-bg_3_h.png */,
+				648F8184120D068100B17DD2 /* numpad-bg_2_h.png */,
+				648F8185120D068100B17DD2 /* numpad-bg_1_h.png */,
+				648F8186120D068100B17DD2 /* numpad-bg_0_h.png */,
+				648F815C120D05A200B17DD2 /* numpad-bg_0.png */,
+				648F815D120D05A200B17DD2 /* numpad-bg_1.png */,
+				648F815E120D05A200B17DD2 /* numpad-bg_2.png */,
+				648F815F120D05A200B17DD2 /* numpad-bg_3.png */,
+				648F8160120D05A200B17DD2 /* numpad-bg_4.png */,
+				648F8161120D05A200B17DD2 /* numpad-bg_5.png */,
+				648F8162120D05A200B17DD2 /* numpad-bg_6.png */,
+				648F8163120D05A200B17DD2 /* numpad-bg_7.png */,
+				648F8164120D05A200B17DD2 /* numpad-bg_8.png */,
+				648F8165120D05A200B17DD2 /* numpad-bg_9.png */,
+				648F8166120D05A200B17DD2 /* numpad-bg_10.png */,
+				648F8167120D05A200B17DD2 /* numpad-bg_11.png */,
+				648F7F1C120CC81300B17DD2 /* keyNE_BG_touched.png */,
+				648F7F1D120CC81300B17DD2 /* keyNW_BG_touched.png */,
+				648F7F1E120CC81300B17DD2 /* keyBG_touched.png */,
+				648F7F1F120CC81300B17DD2 /* keySE_BG_touched.png */,
+				648F7F20120CC81300B17DD2 /* keySW_BG_touched.png */,
+				648F7E85120CC07200B17DD2 /* keySW_BG.png */,
+				648F7E86120CC07200B17DD2 /* keySE_BG.png */,
+				648F7E87120CC07200B17DD2 /* keyNE_BG.png */,
+				648F7E88120CC07200B17DD2 /* keyNW_BG.png */,
+				648F7D8D120CB5D200B17DD2 /* keyBG.png */,
+				640560051208537500D6151D /* keypad.png */,
+			);
+			name = KeyBGs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* KeyPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KeyPad" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyPad;
+			productName = KeyPad;
+			productReference = 1D6058910D05DD3D006BFB54 /* KeyPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KeyPad" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* KeyPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				640560061208537500D6151D /* keypad.png in Resources */,
+				648F7D8E120CB5D200B17DD2 /* keyBG.png in Resources */,
+				648F7E89120CC07200B17DD2 /* keySW_BG.png in Resources */,
+				648F7E8A120CC07200B17DD2 /* keySE_BG.png in Resources */,
+				648F7E8B120CC07200B17DD2 /* keyNE_BG.png in Resources */,
+				648F7E8C120CC07200B17DD2 /* keyNW_BG.png in Resources */,
+				648F7F21120CC81300B17DD2 /* keyNE_BG_touched.png in Resources */,
+				648F7F22120CC81300B17DD2 /* keyNW_BG_touched.png in Resources */,
+				648F7F23120CC81300B17DD2 /* keyBG_touched.png in Resources */,
+				648F7F24120CC81300B17DD2 /* keySE_BG_touched.png in Resources */,
+				648F7F25120CC81300B17DD2 /* keySW_BG_touched.png in Resources */,
+				648F8168120D05A200B17DD2 /* numpad-bg_0.png in Resources */,
+				648F8169120D05A200B17DD2 /* numpad-bg_1.png in Resources */,
+				648F816A120D05A200B17DD2 /* numpad-bg_2.png in Resources */,
+				648F816B120D05A200B17DD2 /* numpad-bg_3.png in Resources */,
+				648F816C120D05A200B17DD2 /* numpad-bg_4.png in Resources */,
+				648F816D120D05A200B17DD2 /* numpad-bg_5.png in Resources */,
+				648F816E120D05A200B17DD2 /* numpad-bg_6.png in Resources */,
+				648F816F120D05A200B17DD2 /* numpad-bg_7.png in Resources */,
+				648F8170120D05A200B17DD2 /* numpad-bg_8.png in Resources */,
+				648F8171120D05A200B17DD2 /* numpad-bg_9.png in Resources */,
+				648F8172120D05A200B17DD2 /* numpad-bg_10.png in Resources */,
+				648F8173120D05A200B17DD2 /* numpad-bg_11.png in Resources */,
+				648F8187120D068100B17DD2 /* numpad-bg_11_h.png in Resources */,
+				648F8188120D068100B17DD2 /* numpad-bg_10_h.png in Resources */,
+				648F8189120D068100B17DD2 /* numpad-bg_9_h.png in Resources */,
+				648F818A120D068100B17DD2 /* numpad-bg_8_h.png in Resources */,
+				648F818B120D068100B17DD2 /* numpad-bg_7_h.png in Resources */,
+				648F818C120D068100B17DD2 /* numpad-bg_6_h.png in Resources */,
+				648F818D120D068100B17DD2 /* numpad-bg_5_h.png in Resources */,
+				648F818E120D068100B17DD2 /* numpad-bg_4_h.png in Resources */,
+				648F818F120D068100B17DD2 /* numpad-bg_3_h.png in Resources */,
+				648F8190120D068100B17DD2 /* numpad-bg_2_h.png in Resources */,
+				648F8191120D068100B17DD2 /* numpad-bg_1_h.png in Resources */,
+				648F8192120D068100B17DD2 /* numpad-bg_0_h.png in Resources */,
+				6449707A1288A8D20061E787 /* KeyPadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* KeyPadAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* KeyPadViewController.m in Sources */,
+				640560091208538500D6151D /* VSKeypadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeyPad_Prefix.pch;
+				INFOPLIST_FILE = "KeyPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libisimulate-4\"",
+				);
+				PRODUCT_NAME = KeyPad;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = KeyPad_Prefix.pch;
+				INFOPLIST_FILE = "KeyPad-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libisimulate-4\"",
+				);
+				PRODUCT_NAME = KeyPad;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Manuel Meyer (84JQ83RKJ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Manuel Meyer (84JQ83RKJ5)";
+				COMPRESS_PNG_FILES = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../TRApplicationFramework/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "25FE9715-DCD6-4AF4-9DD1-532129EED7FD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "25FE9715-DCD6-4AF4-9DD1-532129EED7FD";
+				SDKROOT = iphoneos4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "KeyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "KeyPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

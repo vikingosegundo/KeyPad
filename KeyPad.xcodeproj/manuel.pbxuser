@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* KeyPadAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 485}}";
+			sepNavSelRange = "{56, 6}";
+			sepNavVisRange = "{0, 465}";
+		};
+	};
+	1D3623250D0F684500981E51 /* KeyPadAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1105}}";
+			sepNavSelRange = "{586, 0}";
+			sepNavVisRange = "{232, 434}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* KeyPad */ = {
+		activeExec = 0;
+		executables = (
+			64509F5A12561327005F56EE /* KeyPad */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* KeyPadViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1379, 312}}";
+			sepNavSelRange = "{289, 0}";
+			sepNavVisRange = "{136, 285}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* KeyPadViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 2509}}";
+			sepNavSelRange = "{107, 0}";
+			sepNavVisRange = "{3, 940}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 64509F5A12561327005F56EE /* KeyPad */;
+		activeSDKPreference = iphonesimulator4.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* KeyPad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* KeyPad */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 64509F6A12561346005F56EE /* Code sense */;
+		executables = (
+			64509F5A12561327005F56EE /* KeyPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					994,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					954,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310945680;
+			PBXWorkspaceStateSaveDate = 310945680;
+		};
+		perUserProjectItems = {
+			644970591288A8320061E787 /* PBXTextBookmark */ = 644970591288A8320061E787 /* PBXTextBookmark */;
+			644970E31288AA980061E787 /* PBXTextBookmark */ = 644970E31288AA980061E787 /* PBXTextBookmark */;
+			644971031288AB210061E787 /* PBXTextBookmark */ = 644971031288AB210061E787 /* PBXTextBookmark */;
+			644971151288ABA30061E787 /* PBXBookmark */ = 644971151288ABA30061E787 /* PBXBookmark */;
+			644971161288ABA30061E787 /* PBXBookmark */ = 644971161288ABA30061E787 /* PBXBookmark */;
+			6449711D1288AC230061E787 /* PBXBookmark */ = 6449711D1288AC230061E787 /* PBXBookmark */;
+			6449711E1288AC230061E787 /* PBXTextBookmark */ = 6449711E1288AC230061E787 /* PBXTextBookmark */;
+			6449711F1288AC230061E787 /* PBXTextBookmark */ = 6449711F1288AC230061E787 /* PBXTextBookmark */;
+			644971201288AC230061E787 /* PBXTextBookmark */ = 644971201288AC230061E787 /* PBXTextBookmark */;
+			644971211288AC230061E787 /* PBXTextBookmark */ = 644971211288AC230061E787 /* PBXTextBookmark */;
+			644971251288AC740061E787 /* PBXTextBookmark */ = 644971251288AC740061E787 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 64509F6912561346005F56EE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 485}}";
+			sepNavSelRange = "{91, 0}";
+			sepNavVisRange = "{0, 352}";
+		};
+	};
+	640560071208538500D6151D /* VSKeypadView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 572}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 981}";
+		};
+	};
+	640560081208538500D6151D /* VSKeypadView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 1768}}";
+			sepNavSelRange = "{554, 0}";
+			sepNavVisRange = "{0, 468}";
+		};
+	};
+	644970591288A8320061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* KeyPadAppDelegate.m */;
+		name = "KeyPadAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 588;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 133;
+	};
+	644970E31288AA980061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* KeyPadViewController.h */;
+		name = "KeyPadViewController.h: 13";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	644971031288AB210061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 640560071208538500D6151D /* VSKeypadView.h */;
+		name = "VSKeypadView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 0;
+	};
+	644971151288ABA30061E787 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 648F7D8D120CB5D200B17DD2 /* keyBG.png */;
+	};
+	644971161288ABA30061E787 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 648F7E87120CC07200B17DD2 /* keyNE_BG.png */;
+	};
+	6449711D1288AC230061E787 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 648F8167120D05A200B17DD2 /* numpad-bg_11.png */;
+	};
+	6449711E1288AC230061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 648F8034120CDAF700B17DD2 /* KeypadConfig.h */;
+		name = "KeypadConfig.h: 6";
+		rLen = 0;
+		rLoc = 104;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	6449711F1288AC230061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 6";
+		rLen = 0;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 0;
+	};
+	644971201288AC230061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* KeyPadAppDelegate.h */;
+		name = "KeyPadAppDelegate.h: 5";
+		rLen = 6;
+		rLoc = 56;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 0;
+	};
+	644971211288AC230061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KeyPadViewController.m */;
+		rLen = 0;
+		rLoc = 93;
+		rType = 0;
+	};
+	644971251288AC740061E787 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KeyPadViewController.m */;
+		name = "KeyPadViewController.m: 6";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 3;
+	};
+	64509F5A12561327005F56EE /* KeyPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = KeyPad;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	64509F6912561346005F56EE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	64509F6A12561346005F56EE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	648F8034120CDAF700B17DD2 /* KeypadConfig.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 485}}";
+			sepNavSelRange = "{104, 0}";
+			sepNavVisRange = "{0, 247}";
+		};
+	};
+}
