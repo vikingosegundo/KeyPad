@@ -38,7 +38,7 @@
 - (id)initWithFrame:(CGRect)r ;
 -(void)fireKeypadButton:(id)sender;
 
-@property(nonatomic, retain) id<VSKeypadViewDelegate> delegate;
+@property(nonatomic, assign) id<VSKeypadViewDelegate> delegate;
 
 @end
 
