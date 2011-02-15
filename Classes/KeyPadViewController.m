@@ -33,10 +33,12 @@
 	[amountButton removeFromSuperview];
 	self.keypadView = [VSKeypadView keypadViewWithFrame:CGRectMake(0, 30, 320, 274)];
 	self.keypadView.delegate = self;	
-	[self.keypadView setOpaque:!NO];
+	[self.keypadView setOpaque:YES];
 	enteredAmountString = @"";
 	[self.view addSubview:amountButton];
 	[self.view addSubview:keypadView];
+	[amountButton release];
+	[keypadView release];
     
 }
 
@@ -57,6 +59,7 @@
 
 - (void)dealloc {
 	
+	self.amountButton = nil;
 	self.keypadView = nil;
     [super dealloc];
 }

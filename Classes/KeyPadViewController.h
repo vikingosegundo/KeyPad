@@ -10,11 +10,8 @@
 #import "VSKeypadView.h"
 @interface KeyPadViewController : UIViewController <VSKeypadViewDelegate> {
 	VSKeypadView *keypadView;
-	UIButton *okButton;
 	IBOutlet UIButton *amountButton;
-	
 	NSString *enteredAmountString;
-
 }
 
 -(IBAction)okAction:(id)sender;
