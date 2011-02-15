@@ -18,6 +18,7 @@
 }
 
 -(IBAction)okAction:(id)sender;
+@property (retain) IBOutlet UIButton *amountButton;
 
 @end
 

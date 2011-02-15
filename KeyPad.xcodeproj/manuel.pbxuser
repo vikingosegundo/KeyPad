@@ -37,7 +37,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 64509F5A12561327005F56EE /* KeyPad */;
-		activeSDKPreference = iphonesimulator4.1;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* KeyPad */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* KeyPad */,
@@ -54,7 +54,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					994,
+					341,
 					20,
 					48,
 					43,
@@ -93,8 +93,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 314338573;
-			PBXWorkspaceStateSaveDate = 314338573;
+			PBXPerProjectTemplateStateSaveDate = 319423836;
+			PBXWorkspaceStateSaveDate = 319423836;
 		};
 		perUserProjectItems = {
 			644970591288A8320061E787 = 644970591288A8320061E787 /* PBXTextBookmark */;
@@ -106,17 +106,20 @@
 			6449711E1288AC230061E787 = 6449711E1288AC230061E787 /* PBXTextBookmark */;
 			6449711F1288AC230061E787 = 6449711F1288AC230061E787 /* PBXTextBookmark */;
 			644971201288AC230061E787 = 644971201288AC230061E787 /* PBXTextBookmark */;
-			6478B49F12BC6D2E00FAB769 /* PBXTextBookmark */ = 6478B49F12BC6D2E00FAB769 /* PBXTextBookmark */;
-			6478B4A012BC6D2E00FAB769 /* PBXTextBookmark */ = 6478B4A012BC6D2E00FAB769 /* PBXTextBookmark */;
-			6478B4A112BC6D2E00FAB769 /* PBXTextBookmark */ = 6478B4A112BC6D2E00FAB769 /* PBXTextBookmark */;
-			6478B4AC12BC6D5E00FAB769 /* PBXTextBookmark */ = 6478B4AC12BC6D5E00FAB769 /* PBXTextBookmark */;
-			6478B4AD12BC6D6800FAB769 /* PBXTextBookmark */ = 6478B4AD12BC6D6800FAB769 /* PBXTextBookmark */;
-			6478B4B112BCAD2700FAB769 /* PBXTextBookmark */ = 6478B4B112BCAD2700FAB769 /* PBXTextBookmark */;
-			6478B4B212BCAD2700FAB769 /* PBXTextBookmark */ = 6478B4B212BCAD2700FAB769 /* PBXTextBookmark */;
-			6478B4B312BCAD2700FAB769 /* PBXTextBookmark */ = 6478B4B312BCAD2700FAB769 /* PBXTextBookmark */;
-			6478B4B412BCAD2700FAB769 /* PBXTextBookmark */ = 6478B4B412BCAD2700FAB769 /* PBXTextBookmark */;
-			6478B4B512BCAD2700FAB769 /* PBXTextBookmark */ = 6478B4B512BCAD2700FAB769 /* PBXTextBookmark */;
-			6478B4B612BCAD2700FAB769 /* PBXTextBookmark */ = 6478B4B612BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B49F12BC6D2E00FAB769 = 6478B49F12BC6D2E00FAB769 /* PBXTextBookmark */;
+			6478B4A012BC6D2E00FAB769 = 6478B4A012BC6D2E00FAB769 /* PBXTextBookmark */;
+			6478B4A112BC6D2E00FAB769 = 6478B4A112BC6D2E00FAB769 /* PBXTextBookmark */;
+			6478B4AC12BC6D5E00FAB769 = 6478B4AC12BC6D5E00FAB769 /* PBXTextBookmark */;
+			6478B4AD12BC6D6800FAB769 = 6478B4AD12BC6D6800FAB769 /* PBXTextBookmark */;
+			6478B4B112BCAD2700FAB769 = 6478B4B112BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B4B212BCAD2700FAB769 = 6478B4B212BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B4B312BCAD2700FAB769 = 6478B4B312BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B4B412BCAD2700FAB769 = 6478B4B412BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B4B512BCAD2700FAB769 = 6478B4B512BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B4B612BCAD2700FAB769 = 6478B4B612BCAD2700FAB769 /* PBXTextBookmark */;
+			6478B4B812BCAD3600FAB769 = 6478B4B812BCAD3600FAB769 /* PBXTextBookmark */;
+			6478B4B912BCAD3600FAB769 = 6478B4B912BCAD3600FAB769 /* PBXTextBookmark */;
+			6478B4BA12BCAD5100FAB769 = 6478B4BA12BCAD5100FAB769 /* PBXTextBookmark */;
 			64EEBF5C12BA1D77001B6E5F = 64EEBF5C12BA1D77001B6E5F /* PBXTextBookmark */;
 			64EEBF5F12BA1D96001B6E5F = 64EEBF5F12BA1D96001B6E5F /* PBXTextBookmark */;
 		};
@@ -135,7 +138,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1172, 585}}";
 			sepNavSelRange = "{1047, 0}";
-			sepNavVisRange = "{32, 1059}";
+			sepNavVisRange = "{0, 1019}";
 		};
 	};
 	640560081208538500D6151D /* VSKeypadView.m */ = {
@@ -372,6 +375,36 @@
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 32;
+	};
+	6478B4B812BCAD3600FAB769 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 648F8034120CDAF700B17DD2 /* KeypadConfig.h */;
+		name = "KeypadConfig.h: 14";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 247;
+		vrLoc = 0;
+	};
+	6478B4B912BCAD3600FAB769 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 640560071208538500D6151D /* VSKeypadView.h */;
+		name = "VSKeypadView.h: 41";
+		rLen = 0;
+		rLoc = 1047;
+		rType = 0;
+		vrLen = 452;
+		vrLoc = 632;
+	};
+	6478B4BA12BCAD5100FAB769 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 640560071208538500D6151D /* VSKeypadView.h */;
+		name = "VSKeypadView.h: 41";
+		rLen = 0;
+		rLoc = 1047;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 0;
 	};
 	648F8034120CDAF700B17DD2 /* KeypadConfig.h */ = {
 		uiCtxt = {

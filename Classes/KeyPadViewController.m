@@ -8,11 +8,14 @@
 
 #import "KeyPadViewController.h"
 #import "KeypadConfig.h"
+@interface KeyPadViewController ()
+@property (retain) VSKeypadView *keypadView;
+@end
 
 
 @implementation KeyPadViewController
-
-
+@synthesize keypadView;
+@synthesize amountButton;
 
 // The designated initializer. Override to perform setup that is required before the view is loaded.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -28,9 +31,9 @@
 {
 	[self.view setBackgroundColor:[UIColor whiteColor]];
 	[amountButton removeFromSuperview];
-	keypadView = [[[VSKeypadView keypadViewWithFrame:CGRectMake(0, 30, 320, 274)] retain] retain];
-	keypadView.delegate = self;	
-	[keypadView setOpaque:!NO];
+	self.keypadView = [VSKeypadView keypadViewWithFrame:CGRectMake(0, 30, 320, 274)];
+	self.keypadView.delegate = self;	
+	[self.keypadView setOpaque:!NO];
 	enteredAmountString = @"";
 	[self.view addSubview:amountButton];
 	[self.view addSubview:keypadView];
@@ -54,8 +57,7 @@
 
 - (void)dealloc {
 	
-	[keypadView release];
-	keypadView = nil;
+	self.keypadView = nil;
     [super dealloc];
 }
 
